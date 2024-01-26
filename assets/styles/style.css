@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.index{
+    width: 100%;
+}
+
+/* SECCIÓN 1 */
+
+.contenedor-1{
+    width: 100%;
+    height: 80vh;
+    background-size: 1600px 900px;
+    background-position: center;
+}
+
+.cabecera{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    overflow: hidden;
+    background-color: #4f5c6a;
+}
+
+.logo{
+    width: 30%;
+    padding-left: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.navegacion{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    padding: 30px 30px;
+    font-size: 38px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.carousel-inner{
+    display: grid;
+    align-items: center;
+}
+/* FIN DE SECCIÓN 1*/
+
+/*SECCIÓN 2*/
+
+.contenedor-2{
+    width: 100%;
+    height: 100vh;
+    background-size: 1600px 900px;
+    background-position: center;
+    background-color: #4f5c6a;
+}
+
+.titulo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.imagenesP{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.fotoP {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.fotoP h3{
+    margin: 10px 10px;
+    font-size: 18px;
+    text-align: justify;
+
+
+}
+/*FIN DE SECCIÓN 2*/
