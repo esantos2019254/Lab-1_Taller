@@ -87,6 +87,11 @@
     justify-content: end;
     margin-right: 100px;
     margin-left: 100px;
+
+}
+
+.fotoP:hover{
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 1);
 }
 
 .fotoP h3{
