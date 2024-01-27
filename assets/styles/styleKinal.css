@@ -1,23 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.index{
+.index {
     width: 100%;
 }
 
 /* SECCIÓN 1 */
 
-.contenedor-1{
+.contenedor-1 {
     width: 100%;
     height: 100vh;
     background-size: 1600px 800px;
     background-position: center;
 }
 
-.cabecera{
+.cabecera {
     width: 100%;
     height: 100px;
     display: flex;
@@ -25,7 +25,7 @@
     background-color: #4f5c6a;
 }
 
-.logo{
+.logo {
     width: 30%;
     padding-left: 30px;
     display: flex;
@@ -33,7 +33,7 @@
     align-items: center;
 }
 
-.navegacion{
+.navegacion {
     width: 70%;
     display: flex;
     flex-direction: row;
@@ -43,7 +43,7 @@
 }
 
 
-.link{
+.link {
     text-decoration: none;
     color: white;
     padding: 30px 30px;
@@ -51,28 +51,192 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.carousel-inner{
+.carousel-inner {
     display: grid;
     align-items: center;
 }
+
 /* FIN DE SECCIÓN 1*/
 
 /* SECCIÓN 2 */
 
-.container .card{
-    margin: 0px 25px 0px 25px;
+.contenedor-2 {
+    width: 100%;
+    height: 90vh;
+    background-size: 1600px 800px;
+    background-position: center;
 }
 
-.imagenesP{
+.container .card {
+    margin: 0px 75px 0px 75px;
+}
+
+.imagenesP {
     display: flex;
     flex-direction: row;
-    padding-left: 150px;
+    margin: 0px 10px 0px 10px;
 }
 
-.titulo{
+.titulo {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+.textoCard p {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+
+
+.titulo h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
 /* FIN DE SECCIÓN 2*/
+
+/* SECCIÓN 3 */
+
+.contenedor-3 {
+    width: 100%;
+    height: 50vh;
+    background-size: 1600px 800px;
+    background-color: #16233F;
+    background-position: center;
+    border-radius: 200px 200px 0px 0px;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.cardT h5 {
+    font-size: 48px;
+    color: white;
+}
+
+.cardT p {
+    color: white;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.tituloContenedor3 h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.container3 .card {
+    margin: 0px 5px 0px 5px;
+}
+
+/* FIN DE SECCIÓN 3*/
+
+/* SECCIÓN 4 */
+
+.contenedor-4 {
+    width: 100%;
+    height: 25vh;
+    background-color: #16233F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerTexto {
+    width: 90%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja1 {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja1 h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+.caja1 p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+.rs {}
+
+.caja2 {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja3 {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja3 p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+.pie {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pie p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+/* FIN DE SECCIÓN 4 */
